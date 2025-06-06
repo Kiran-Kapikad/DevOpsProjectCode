@@ -15,7 +15,7 @@ spec:
         app: go-web-app
     spec:
       containers:
-      - name: go-web-app
-        image: kirankapikad/microdegree:latest
-        ports:
-        - containerPort: 8080
+        - name: go-web-app
+          image: kirankapikad/microdegreecicd:latest
+          ports:
+            - containerPort: 8080
